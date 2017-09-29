@@ -1,5 +1,6 @@
 const Nightmare = require('nightmare');
 const assert = require('assert');
+const request = require('request');
 
 
 describe('========= Checks Assignment 9 ========', function() {
@@ -31,6 +32,7 @@ describe('========= Checks Assignment 9 ========', function() {
         }, selector)
         .end()
         .then((windSpeed) => {
+
           assert.equal(windSpeed, 22);
           done();
         })

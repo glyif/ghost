@@ -14,9 +14,9 @@ $ npm install
 
 ### Getting your code
 ```bash
-$ ./setup GITUBNAME
+$ ./setup.sh GITUBNAME
 
-# ./setup glyif
+# ./setup.sh glyif
 ```
 
 ## Running Tests
@@ -33,5 +33,5 @@ $ npm test
 ## cleaning up
 ### to get rid of all of your scripts
 ```bash
-$ ./cleanup
+$ ./cleanup.sh
 ```

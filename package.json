@@ -6,6 +6,7 @@
   "author": "glyif",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.16.0",
     "mocha": "^3.5.3",
     "nightmare": "^2.10.0",
     "request": "^2.83.0"

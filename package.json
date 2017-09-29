@@ -1,0 +1,16 @@
+{
+  "name": "ghost",
+  "version": "1.0.0",
+  "description": "Unit testing for Holberton 0x15-javascript-web_jquery",
+  "main": "app.js",
+  "author": "glyif",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "nightmare": "^2.10.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  }
+}
